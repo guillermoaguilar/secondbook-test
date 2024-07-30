@@ -1,0 +1,11 @@
+name: mybook
+channels:
+  - default
+dependencies:
+  - python=3.11
+  - sphinx
+  - pip
+  - pandas
+  - matplotlib
+  - pip:
+    - jupyter-book
